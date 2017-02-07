@@ -17,7 +17,7 @@ group: "navigation"
 
 #### 技术
 
-* 网站源码：<https://github.com/jasonariana/ieverx.github.com>
+* 网站源码：<https://github.com/JasonAriana/blogcode>
 * [Jekyll][]
 * [jQuery][]
 * [purecss][]
@@ -28,7 +28,7 @@ group: "navigation"
 github：[jasonariana][github]，我的一些代码可以在这里找到  
 
 [weibo]: http://weibo.com/ieverx
-[github]: http://github.com/iEverX
+[github]: http://github.com/JasonAriana
 [Jekyll]: http://jekyllrb.com "Transform your plain text into static websites and blogs"
 [Twitter Bootstrap]: http://twitter.github.com/bootstrap/
 [jQuery]: http://jquery.com
