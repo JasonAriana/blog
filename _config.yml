@@ -1,8 +1,8 @@
 title: Jason's Blog
 tagline: 生活需要仪式感。
 description: 一个程序员的技术和生活
-baseurl: /jekyll_demo # the subpath of your site, e.g. /blog/
-url: https://jasonariana.github.io/jekyll_demo # the base hostname & protocol for your site
+baseurl: /blog # the subpath of your site, e.g. /blog/
+url: https://jasonariana.github.io/blog # the base hostname & protocol for your site
 
 author:
   name: Jason
