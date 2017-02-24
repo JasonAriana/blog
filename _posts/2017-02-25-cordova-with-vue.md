@@ -1,3 +1,11 @@
+---
+layout: post
+title: "使用cordova打包vue程序"
+tagline: "build vue to cordova"
+description: ""
+tags: ["总结", "vue", "cordova"]
+---
+
 #使用Cordova打包Vue WebAPP
 
 <br>
@@ -45,3 +53,5 @@
 	3、npm run build 编译 vue-app 到 cordova-app 中
     
 	4、cordova run android 运行 打包vue-app到cordova-app的webapp
+	
+[完毕]
