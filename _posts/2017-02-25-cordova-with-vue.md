@@ -1,57 +1,57 @@
 ---
 layout: post
-title: "Ê¹ÓÃcordova´ò°üvue³ÌĞò"
+title: "ä½¿ç”¨cordovaæ‰“åŒ…vueç¨‹åº"
 tagline: "cordova with vue"
 description: ""
-tags: ["×Ü½á", "vue", "cordova"]
+tags: ["æ€»ç»“", "vue", "cordova"]
 ---
 
-#Ê¹ÓÃCordova´ò°üVue WebAPP
+#ä½¿ç”¨Cordovaæ‰“åŒ…Vue WebAPP
 
 <br>
-##Ò»¡¢¹¹½¨Vue webapp
-	1¡¢npm install -g vue-cli    //È«¾Ö°²×°vue-cli
+##ä¸€ã€æ„å»ºVue webapp
+	1ã€npm install -g vue-cli    //å…¨å±€å®‰è£…vue-cli
     
-	2¡¢vue init webpack projectName   //Éú³ÉÏîÄ¿ÃûÎªprojectNameµÄÄ£°å£¬ÕâÀïµÄÏîÄ¿ÃûprojectNameËæÄã×Ô¼ºĞ´
+	2ã€vue init webpack projectName   //ç”Ÿæˆé¡¹ç›®åä¸ºprojectNameçš„æ¨¡æ¿ï¼Œè¿™é‡Œçš„é¡¹ç›®åprojectNameéšä½ è‡ªå·±å†™
     
-	3¡¢cd projectName 
+	3ã€cd projectName 
     
-	4¡¢npm install   //³õÊ¼»¯°²×°ÒÀÀµ
+	4ã€npm install   //åˆå§‹åŒ–å®‰è£…ä¾èµ–
     
-	5¡¢È»ºóÖ´ĞĞ npm run dev ÔÚä¯ÀÀÆ÷´ò¿ªhttp://localhost:8080£¬Ôò¿ÉÒÔ¿´µ½»¶Ó­Ò³ÁË¡£
+	5ã€ç„¶åæ‰§è¡Œ npm run dev åœ¨æµè§ˆå™¨æ‰“å¼€http://localhost:8080ï¼Œåˆ™å¯ä»¥çœ‹åˆ°æ¬¢è¿é¡µäº†ã€‚
 	
-##¶ş¡¢¹¹½¨CordovaÓ¦ÓÃ
-	1¡¢ÔÚÄ³¸öÄ¿Â¼ÏÂ´´½¨cordovaÏîÄ¿£¬´ò¿ªÃüÁîĞĞ£¬ÊäÈë£ºcordova  create  test  com.cordova.test   test  £¨´´½¨cordova¹¤³Ì  <ÎÄ¼ş¼ĞÃû> <°üÃû> <appÃû>£©
+##äºŒã€æ„å»ºCordovaåº”ç”¨
+	1ã€åœ¨æŸä¸ªç›®å½•ä¸‹åˆ›å»ºcordovaé¡¹ç›®ï¼Œæ‰“å¼€å‘½ä»¤è¡Œï¼Œè¾“å…¥ï¼šcordova  create  test  com.cordova.test   test  ï¼ˆåˆ›å»ºcordovaå·¥ç¨‹  <æ–‡ä»¶å¤¹å> <åŒ…å> <appå>ï¼‰
 
-		hooks£º´æ·Å×Ô¶¨ÒåcordovaÃüÁîµÄ½Å±¾ÎÄ¼ş¡£Ã¿¸öprojectÃüÁî¶¼¿ÉÒÔ¶¨ÒåbeforeºÍafterµÄHook£¬±ÈÈç£ºbefore_build¡¢after_build¡£Ã»ÓÃ¹ı£¬²»Õ¹¿ªÁË¡£
+		hooksï¼šå­˜æ”¾è‡ªå®šä¹‰cordovaå‘½ä»¤çš„è„šæœ¬æ–‡ä»¶ã€‚æ¯ä¸ªprojectå‘½ä»¤éƒ½å¯ä»¥å®šä¹‰beforeå’Œafterçš„Hookï¼Œæ¯”å¦‚ï¼šbefore_buildã€after_buildã€‚æ²¡ç”¨è¿‡ï¼Œä¸å±•å¼€äº†ã€‚
 
-		platforms£ºÆ½Ì¨Ä¿Â¼£¬¸÷×ÔµÄÆ½Ì¨´úÂë¾Í·ÅÔÚÕâÀï£¬¿ÉÒÔ·ÅÒ»ÏÂÆ½Ì¨×¨ÊôµÄ´úÂë£¬ÏÖÔÚÕâ¸öÄ¿Â¼Ó¦¸ÃÊÇ¿ÕµÄ£¬ºóÃæ»á½éÉÜÈçºÎ´´½¨Æ½Ì¨¡£
+		platformsï¼šå¹³å°ç›®å½•ï¼Œå„è‡ªçš„å¹³å°ä»£ç å°±æ”¾åœ¨è¿™é‡Œï¼Œå¯ä»¥æ”¾ä¸€ä¸‹å¹³å°ä¸“å±çš„ä»£ç ï¼Œç°åœ¨è¿™ä¸ªç›®å½•åº”è¯¥æ˜¯ç©ºçš„ï¼Œåé¢ä¼šä»‹ç»å¦‚ä½•åˆ›å»ºå¹³å°ã€‚
 
-		plugins£º²å¼şÄ¿Â¼£¬°²×°µÄ²å¼ş»á·ÅÔÚÕâÀï¡£ºóÃæ»áÓĞ×¨ÃÅµÄÎÄÕÂ½éÉÜ¿ª·¢²å¼ş¡£
+		pluginsï¼šæ’ä»¶ç›®å½•ï¼Œå®‰è£…çš„æ’ä»¶ä¼šæ”¾åœ¨è¿™é‡Œã€‚åé¢ä¼šæœ‰ä¸“é—¨çš„æ–‡ç« ä»‹ç»å¼€å‘æ’ä»¶ã€‚
 
-		www£º×îÖØÒªµÄÄ¿Â¼£¬´æ·ÅÏîÄ¿Ö÷ÌâµÄHTML5ºÍJS´úÂëµÄÄ¿Â¼¡£appÒ»¿ªÊ¼´ò¿ªµÄ¾ÍÊÇÕâ¸öÄ¿Â¼ÖĞindex.htmlÎÄ¼ş¡£
+		wwwï¼šæœ€é‡è¦çš„ç›®å½•ï¼Œå­˜æ”¾é¡¹ç›®ä¸»é¢˜çš„HTML5å’ŒJSä»£ç çš„ç›®å½•ã€‚appä¸€å¼€å§‹æ‰“å¼€çš„å°±æ˜¯è¿™ä¸ªç›®å½•ä¸­index.htmlæ–‡ä»¶ã€‚
 
-		config.xml£ºÖ÷ÒªÊÇcordovaµÄÒ»Ğ©ÅäÖÃ£¬±ÈÈç£ºÏîÄ¿Ê¹ÓÃÁËÄÄĞ©²å¼ş¡¢Ó¦ÓÃÍ¼±êiconºÍÆô¶¯Ò³ÃæSplashScreen£¬ĞŞ¸ÄappµÄ°æ±¾£¬Ãû×ÖµÈĞÅÏ¢£¬»¹ÓĞÆ½Ì¨µÄÅäÖÃ¡£
+		config.xmlï¼šä¸»è¦æ˜¯cordovaçš„ä¸€äº›é…ç½®ï¼Œæ¯”å¦‚ï¼šé¡¹ç›®ä½¿ç”¨äº†å“ªäº›æ’ä»¶ã€åº”ç”¨å›¾æ ‡iconå’Œå¯åŠ¨é¡µé¢SplashScreenï¼Œä¿®æ”¹appçš„ç‰ˆæœ¬ï¼Œåå­—ç­‰ä¿¡æ¯ï¼Œè¿˜æœ‰å¹³å°çš„é…ç½®ã€‚
 	
-	2¡¢Ìí¼ÓÆ½Ì¨£ºÓÃÃüÁîĞĞ´ò¿ª¶ÔÓ¦µÄÎÄ¼ş¼Ğ£¬ÊäÈë£ºcordova platforms add android
-		ÏÖÔÚ¾Í¿ÉÒÔÔÚwwwÎÄ¼ş¼ĞÄÚĞ´×Ô¼ºµÄjsºÍhtml´úÂëÁË¡££¨cordova platforms ls  ²é¿´Ö§³ÖµÄÆ½Ì¨£©
-		ÒÆ³ıÆ½Ì¨£ºÊäÈë£ºcordova platforms rm android  £¨ÒÆ³ıandroidÆ½Ì¨Ö§³Ö£©
+	2ã€æ·»åŠ å¹³å°ï¼šç”¨å‘½ä»¤è¡Œæ‰“å¼€å¯¹åº”çš„æ–‡ä»¶å¤¹ï¼Œè¾“å…¥ï¼šcordova platforms add android
+		ç°åœ¨å°±å¯ä»¥åœ¨wwwæ–‡ä»¶å¤¹å†…å†™è‡ªå·±çš„jså’Œhtmlä»£ç äº†ã€‚ï¼ˆcordova platforms ls  æŸ¥çœ‹æ”¯æŒçš„å¹³å°ï¼‰
+		ç§»é™¤å¹³å°ï¼šè¾“å…¥ï¼šcordova platforms rm android  ï¼ˆç§»é™¤androidå¹³å°æ”¯æŒï¼‰
 		
-	3¡¢cordova build android //´ò°ücordovaÏîÄ¿µ½androidÆ½Ì¨¡£
+	3ã€cordova build android //æ‰“åŒ…cordovaé¡¹ç›®åˆ°androidå¹³å°ã€‚
 	
-	4¡¢cordova run android //°²×°³ÌĞòÔËĞĞ£¨¸ÃÓï¾äÒÑ¾­°üÀ¨ÁËbuildÃüÁî£©
+	4ã€cordova run android //å®‰è£…ç¨‹åºè¿è¡Œï¼ˆè¯¥è¯­å¥å·²ç»åŒ…æ‹¬äº†buildå‘½ä»¤ï¼‰
 
-##Èı¡¢½«Vue webapp±àÒëµ½Cordova
-	1¡¢´ò¿ªVueÏîÄ¿config/index.js
+##ä¸‰ã€å°†Vue webappç¼–è¯‘åˆ°Cordova
+	1ã€æ‰“å¼€Vueé¡¹ç›®config/index.js
     
-	2¡¢ĞŞ¸ÄÏÂÁĞ²ÎÊı£º
+	2ã€ä¿®æ”¹ä¸‹åˆ—å‚æ•°ï¼š
 			index:path.resolve(__dirname, '../cordova-app/www/index.html'),
 			assetsRoot:path.resolve(__dirname, '../cordova-app/www'),
 			assetsSubDirectory:'',
 			assetsPublicPath:''
             
-	3¡¢npm run build ±àÒë vue-app µ½ cordova-app ÖĞ
+	3ã€npm run build ç¼–è¯‘ vue-app åˆ° cordova-app ä¸­
     
-	4¡¢cordova run android ÔËĞĞ ´ò°üvue-appµ½cordova-appµÄwebapp
+	4ã€cordova run android è¿è¡Œ æ‰“åŒ…vue-appåˆ°cordova-appçš„webapp
 	
-[Íê±Ï]
+[å®Œæ¯•]
