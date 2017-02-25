@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "使用cordova打包vue程序"
-tagline: "build vue to cordova"
+tagline: "cordova with vue"
 description: ""
 tags: ["总结", "vue", "cordova"]
 ---
